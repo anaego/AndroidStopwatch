@@ -21,11 +21,5 @@ class MainActivity : AppCompatActivity() {
         spannableString.setSpan(RelativeSizeSpan(0.2f), 5, 9, 0)
         val stopwatchTextView = findViewById<TextView>(R.id.stopwatchTextView)
         stopwatchTextView.setText(spannableString)
-
-//        ss1.setSpan(RelativeSizeSpan(2f), 0, 5, 0) // set size
-//        ss1.setSpan(ForegroundColorSpan(Color.RED), 0, 5, 0)// set color
-//        val tv = findViewById(R.id.textview) as TextView
-//        tv.setText(ss1)
-
     }
 }
