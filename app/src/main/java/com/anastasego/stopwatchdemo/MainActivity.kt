@@ -2,11 +2,8 @@ package com.anastasego.stopwatchdemo
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.os.SystemClock
 import android.text.SpannableString
-import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.TextView
-import android.text.style.ForegroundColorSpan
 import android.text.style.RelativeSizeSpan
 
 
