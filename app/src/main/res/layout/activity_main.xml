@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#426ef4">
+
+    <FrameLayout
+            android:layout_width="368dp"
+            android:layout_height="499dp" tools:layout_editor_absoluteY="8dp" tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/_00_00_000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stopwatchTextView"
+                    android:textColor="@android:color/white" android:textStyle="bold" android:textSize="75sp"
+                    android:gravity="center"
+                    android:layout_marginTop="132dp" app:layout_constraintTop_toTopOf="parent"
+            />
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:gravity="center_horizontal">
+                <Button
+                        android:text="@string/reset"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:id="@+id/resetbutton"
+                        android:background="@null"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center"/>
+                <Button
+                        android:text="@string/start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:id="@+id/startbutton"
+                        android:background="@null"
+                        android:textColor="@android:color/white" android:gravity="center_horizontal|center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>
